@@ -301,6 +301,7 @@
     <type fullname="DynamicSplitViewText" preserve="all" />
     <type fullname="EggController" preserve="all" />
     <type fullname="EntranceEffect" preserve="all" />
+    <type fullname="EventAssetsRepo" preserve="all" />
     <type fullname="ExtraWordEntryNew" preserve="all" />
     <type fullname="ExtraWordsHandlerNew" preserve="all" />
     <type fullname="FailureFeedbackPopup" preserve="all" />
@@ -673,6 +674,7 @@
     <type fullname="RacersSettings" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Frogger.FroggerGameManager/GameModeInstruction" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.SearchGameManager/CustomSpritesSizes" preserve="nothing" serialized="true" />
+    <type fullname="EventAssetsRepo/Event" preserve="nothing" serialized="true" />
     <type fullname="CategoryColorsInfo" preserve="nothing" serialized="true" />
     <type fullname="ColorInfo" preserve="nothing" serialized="true" />
     <type fullname="Cloud" preserve="nothing" serialized="true" />
