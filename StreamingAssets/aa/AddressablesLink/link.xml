@@ -130,6 +130,7 @@
     <type fullname="com.kideo.learn.english.EnglishTurtleIslandActivityScene" preserve="all" />
     <type fullname="com.kideo.learn.english.Events.EventCard" preserve="all" />
     <type fullname="com.kideo.learn.english.Events.EventsSceneController" preserve="all" />
+    <type fullname="com.kideo.learn.english.Events.EventTopLayer" preserve="all" />
     <type fullname="com.kideo.learn.english.Events.PretestButton" preserve="all" />
     <type fullname="com.kideo.learn.english.Feedback.FeedbackPopup" preserve="all" />
     <type fullname="com.kideo.learn.english.Feedback.FeedbackResultsRow" preserve="all" />
