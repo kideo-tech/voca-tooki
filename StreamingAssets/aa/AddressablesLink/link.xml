@@ -39,6 +39,7 @@
     <type fullname="Board" preserve="all" />
     <type fullname="Bots.BotMatchController" preserve="all" />
     <type fullname="Boundry" preserve="all" />
+    <type fullname="BroadcastPopup" preserve="all" />
     <type fullname="BubbleHandler" preserve="all" />
     <type fullname="BubbleMotion" preserve="all" />
     <type fullname="BulletCollisionScript" preserve="all" />
@@ -111,6 +112,7 @@
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DItemFlyEffect" preserve="all" />
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DKippah" preserve="all" />
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DOptionButton" preserve="all" />
+    <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DOwnSpot" preserve="all" />
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DPortrait" preserve="all" />
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DRenderQuality" preserve="all" />
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DShopLayout" preserve="all" />
@@ -155,7 +157,10 @@
     <type fullname="com.kideo.learn.english.CrossWordToFindManager" preserve="all" />
     <type fullname="com.kideo.learn.english.CrosswordTouchPanelHandler" preserve="all" />
     <type fullname="com.kideo.learn.english.CupTournament.GroupMemberListEntry" preserve="all" />
+    <type fullname="com.kideo.learn.english.CupTournament.TournamentActivitiesView" preserve="all" />
+    <type fullname="com.kideo.learn.english.CupTournament.TournamentGameCard" preserve="all" />
     <type fullname="com.kideo.learn.english.CupTournament.TournamentGroupMembersPanel" preserve="all" />
+    <type fullname="com.kideo.learn.english.CupTournament.TournamentLeaderboardRow" preserve="all" />
     <type fullname="com.kideo.learn.english.CupTournament.UsersListView" preserve="all" />
     <type fullname="com.kideo.learn.english.DailyGames.DailyGamesFinalFeedback" preserve="all" />
     <type fullname="com.kideo.learn.english.DayNightActivityManagement" preserve="all" />
@@ -398,6 +403,8 @@
     <type fullname="FrostweepGames.Plugins.GoogleCloud.TextToSpeech.GCTextToSpeech" preserve="all" />
     <type fullname="Game" preserve="all" />
     <type fullname="GameInfra.B2CPager" preserve="all" />
+    <type fullname="GameInfra.Broadcast.BroadcastManager" preserve="all" />
+    <type fullname="GameInfra.Broadcast.BroadcastPresenter" preserve="all" />
     <type fullname="GameInfra.GuestModeConfig" preserve="all" />
     <type fullname="GameInfra.GuestModeHandler" preserve="all" />
     <type fullname="GameInfra.LeaderBoard.LeaderBoardEntryInfo" preserve="all" />
@@ -506,6 +513,7 @@
     <type fullname="LifeBarScript" preserve="all" />
     <type fullname="LoadingPanel" preserve="all" />
     <type fullname="LocalizedText" preserve="all" />
+    <type fullname="LocalizedTitleSprite" preserve="all" />
     <type fullname="MainMenuLeaderboardFetcher" preserve="all" />
     <type fullname="MainThreadDispatcher" preserve="all" />
     <type fullname="Managers.GameUIController" preserve="all" />
@@ -726,6 +734,9 @@
     <type fullname="UserData" preserve="all" />
     <type fullname="VendingMachineLight" preserve="all" />
     <type fullname="VerticalCardCarousel" preserve="all" />
+    <type fullname="voca_tooki_infra.Modules.Tasks.Scripts.ReadingScorePanel" preserve="all" />
+    <type fullname="voca_tooki_infra.Modules.Tasks.Scripts.ReadingWordPopup" preserve="all" />
+    <type fullname="voca_tooki_infra.Modules.Tasks.Scripts.RecordGuideCard" preserve="all" />
     <type fullname="VoiceControl" preserve="all" />
     <type fullname="VoiceRecoginitionResultsView" preserve="all" />
     <type fullname="VoiceRecognition" preserve="all" />
@@ -812,8 +823,13 @@
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DTheme/RectSpec" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DTheme/RoleSprite" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Avatar3D.Avatar3DTzitzitFollow/Side" preserve="nothing" serialized="true" />
+    <type fullname="voca_tooki_infra.Modules.Tasks.Scripts.ReadingScorePanel/ScoreTile" preserve="nothing" serialized="true" />
+    <type fullname="voca_tooki_infra.Modules.Tasks.Scripts.RecordGuideCard/Look" preserve="nothing" serialized="true" />
+    <type fullname="voca_tooki_infra.Modules.Tasks.Scripts.RecordGuideCard/Texts" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.SubTaskAnswer" preserve="nothing" serialized="true" />
     <type fullname="NamedSound" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.CupTournament.TournamentFonts" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.CupTournament.TournamentTextStyle" preserve="nothing" serialized="true" />
     <type fullname="AwardTypeInfo" preserve="nothing" serialized="true" />
     <type fullname="DailyGameTitle" preserve="nothing" serialized="true" />
     <type fullname="SpriteInfo" preserve="nothing" serialized="true" />
@@ -1206,10 +1222,10 @@
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true" />
